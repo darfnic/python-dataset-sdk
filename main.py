@@ -60,3 +60,6 @@ async def myFunction():
 logging.basicConfig(level=logging.DEBUG)
 
 asyncio.run(myFunction())
+
+# for usage in Jpyter notebooks:
+# await myFunction()
