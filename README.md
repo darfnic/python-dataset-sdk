@@ -17,7 +17,8 @@ Features:
 
 ## Installation
 - Ensure that you are using at least Python 3.7 with `python --version` (Sometimes `python3`)
-- Install the module with `pip install 'meteoblue_dataset_sdk >=1.0,<2.0'` (Sometimes `pip3`)
+- Install the module with `pip install 'meteoblue_dataset_sdk >=1.0,<2.0'` (Sometimes `pip3`). 
+- In order to install it from Jupyter notebooks, it is sometimes required to run the command `pip install 'meteoblue_dataset_sdk >=1.0,<2.0' --user` to avoid permission errors.
 
 This module will also install the following dependencies automatically:
 - aiohttp >=3.6,<4
